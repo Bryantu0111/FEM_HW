@@ -5,7 +5,7 @@ def product_of_m(m):
     result_1 = 1
     result_2 = 1
     result_3 = 1
-    for i in range(1, m + 1):
+    for i in range(1, m + 1, 2):
         result_1 *= i
         result_2 += i
         result_3 += 1 / i
