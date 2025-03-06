@@ -1,10 +1,10 @@
 def product_of_m(m):
-    if m % 2 == 0:
+    if m % 2  == 0:
         raise ValueError("m 必須是奇數")
     
     result_1 = 1
-    result_2 = 1
-    result_3 = 1
+    result_2 = 0
+    result_3 = 0
     for i in range(1, m + 1, 2):
         result_1 *= i
         result_2 += i
